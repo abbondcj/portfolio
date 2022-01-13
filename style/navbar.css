@@ -1,16 +1,34 @@
 .navbar {
-    background-color: gray;
+    align-items: center;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     margin: 20px 50px 0px 50px;
     padding: 10px;
     position: top sticky;
 }
 
+nav button {
+    margin-top: 30px;
+}
+
+.custom-toggler:focus {
+    color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../assets/images/menu-icon.png");
+    }
+
 .navbar-brand img {
-    max-width:150px;
     max-height: 150px;
+    max-width:150px;
 }
 
 nav a {
-    color:black !important;
+    color: white !important;
+}
+
+.nav-item a:hover {
+    color: lightgray !important;
 }

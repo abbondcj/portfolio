@@ -2,9 +2,10 @@
 @import "./style/index.css";
 
 body {
-    background-image: url("../assets/images/gradient-background.jpg");
+    background: url("./assets/images/gradient-background.jpg");
     background-size: cover;
 }
+
 
 #mainContent {
     color: white;
