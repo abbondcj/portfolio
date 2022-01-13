@@ -1,0 +1,5 @@
+@import "./style/navbar.css";
+
+#mainContent {
+    margin-top: 30px;
+}
