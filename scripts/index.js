@@ -1,8 +1,8 @@
-function index() {
-    let indexContent = document.getElementById("mainContent");
-    indexContent.innerHTML = `
-        <div>Index page</>    
+function about() {
+    let aboutContent = document.getElementById("mainContent");
+    aboutContent.innerHTML = `
+        <div>About page</>    
     `
 };
 
-index();
+about();

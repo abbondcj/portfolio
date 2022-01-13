@@ -3,19 +3,18 @@
 export const navbar = () => {
     let body = document.getElementById("nav")
     body.innerHTML = `
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="./assets/images/initials-logo.png"></a>
+        <nav class="navbar navbar-expand-sm bg-transparent fixed-top">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/images/initials-logo.png"></a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="myNav">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="./index.html">Home</a>
-                    <a class="nav-link" href="./projects.html">Projects</a>
-                    <a class="nav-link" href="./resume.html">Resume</a>
-                    <a class="nav-link" href="./about.html">About</a>
-                    <a class="nav-link" href="./contact.html">Contact<a/>
-                </div>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact<a/></li>
+                </ul>
             </div>
         </nav>`
 };

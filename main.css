@@ -1,5 +1,14 @@
 @import "./style/navbar.css";
+@import "./style/index.css";
+
+body {
+    background-image: url("../assets/images/gradient-background.jpg");
+    background-size: cover;
+}
 
 #mainContent {
-    margin-top: 30px;
+    color: white;
+    margin-top: 300px;
+    text-align: center;
 }
+
